@@ -1,0 +1,34 @@
+Package: rhdfs
+Type: Package
+Title: HDFS for R
+Version: 0.x
+Date: 2014-11-13
+Author: Revolution Analytics, Inc.
+Maintainer: Antonio Piccolboni <antonio@piccolboni.info>
+Description: Use this instead of learning HDFS.
+License: ...
+Depends:
+    R (>= 3.0.0)
+Imports:
+    tools,
+    utils
+Suggests:
+    datasets,
+    markdown
+URL: http://shiny.rstudio.com
+BugReports: https://github.com/rstudio/shiny/issues
+Collate:
+    'app.R'
+    'bootstrap-layout.R'
+    'map.R'
+    'globals.R'
+    'utils.R'
+    'bootstrap.R'
+    'cache.R'
+    'fileupload.R'
+    'stack.R'
+    'graph.R'
+    'hooks.R'
+    'tar.R'
+    'timer.R'
+    'update-input.R'
